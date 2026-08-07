@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 55 880 390" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Детская площадка — реализованный проект">
+  <defs>
+    <linearGradient id="pgSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c08a56"/><stop offset="1" stop-color="#f0d5ad"/>
+    </linearGradient>
+    <linearGradient id="pgFacade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ded4c2"/><stop offset="1" stop-color="#b3a794"/>
+    </linearGradient>
+    <linearGradient id="pgFacade2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfc6b6"/><stop offset="1" stop-color="#a1968a"/>
+    </linearGradient>
+    <linearGradient id="pgRoof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d7a45"/><stop offset="1" stop-color="#26522c"/>
+    </linearGradient>
+    <linearGradient id="pgWood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8d6134"/><stop offset=".5" stop-color="#a97a44"/><stop offset="1" stop-color="#734d28"/>
+    </linearGradient>
+    <linearGradient id="pgSlide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3b675"/><stop offset="1" stop-color="#c2924f"/>
+    </linearGradient>
+    <linearGradient id="pgGround" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b5f52"/><stop offset="1" stop-color="#4a4239"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="880" height="500" fill="url(#pgSky)"/>
+  <g fill="#fff" opacity=".55">
+    <ellipse cx="140" cy="52" rx="70" ry="18"/><ellipse cx="470" cy="38" rx="86" ry="16"/>
+    <ellipse cx="740" cy="60" rx="72" ry="17"/>
+  </g>
+
+  <!-- residential blocks -->
+  <g>
+    <rect x="470" y="20" width="180" height="300" fill="url(#pgFacade)"/>
+    <rect x="650" y="52" width="130" height="268" fill="url(#pgFacade2)"/>
+    <rect x="780" y="30" width="100" height="290" fill="url(#pgFacade)"/>
+    <rect x="352" y="86" width="112" height="234" fill="url(#pgFacade2)"/>
+  </g>
+  <g fill="#5c6b7a" opacity=".85">
+    <g id="pgWinRow">
+      <rect x="484" y="40" width="20" height="26"/><rect x="514" y="40" width="20" height="26"/>
+      <rect x="544" y="40" width="20" height="26"/><rect x="574" y="40" width="20" height="26"/>
+      <rect x="604" y="40" width="20" height="26"/><rect x="662" y="72" width="18" height="24"/>
+      <rect x="690" y="72" width="18" height="24"/><rect x="718" y="72" width="18" height="24"/>
+      <rect x="746" y="72" width="18" height="24"/><rect x="792" y="50" width="18" height="24"/>
+      <rect x="820" y="50" width="18" height="24"/><rect x="848" y="50" width="18" height="24"/>
+      <rect x="364" y="104" width="18" height="24"/><rect x="392" y="104" width="18" height="24"/>
+      <rect x="420" y="104" width="18" height="24"/>
+    </g>
+    <use href="#pgWinRow" y="44"/><use href="#pgWinRow" y="88"/><use href="#pgWinRow" y="132"/>
+    <use href="#pgWinRow" y="176"/><use href="#pgWinRow" y="220"/>
+  </g>
+
+  <!-- trees -->
+  <g>
+    <rect x="86" y="230" width="10" height="90" fill="#5b452c"/>
+    <ellipse cx="91" cy="200" rx="62" ry="56" fill="#3d6b3c"/>
+    <ellipse cx="70" cy="222" rx="46" ry="40" fill="#487a45"/>
+    <rect x="252" y="252" width="8" height="70" fill="#5b452c"/>
+    <ellipse cx="256" cy="226" rx="44" ry="40" fill="#41703f"/>
+    <rect x="322" y="262" width="7" height="58" fill="#5b452c"/>
+    <ellipse cx="325" cy="242" rx="34" ry="30" fill="#4b7d47"/>
+  </g>
+
+  <!-- ground -->
+  <rect y="316" width="880" height="184" fill="url(#pgGround)"/>
+  <g opacity=".55">
+    <path d="M0 340 L880 328 L880 344 L0 358 Z" fill="#2f3940"/>
+    <path d="M120 500 L280 356 L360 356 L250 500 Z" fill="#6e4b46"/>
+    <path d="M470 500 L580 358 L700 358 L640 500 Z" fill="#3f5a4c"/>
+    <path d="M700 500 L760 360 L880 360 L880 500 Z" fill="#5a4a5c"/>
+  </g>
+
+  <!-- main play structure -->
+  <g>
+    <!-- left tower -->
+    <path d="M150 168 L230 168 L190 128 Z" fill="url(#pgRoof)"/>
+    <rect x="156" y="168" width="68" height="10" fill="#26522c"/>
+    <rect x="160" y="178" width="10" height="150" fill="url(#pgWood)"/>
+    <rect x="210" y="178" width="10" height="150" fill="url(#pgWood)"/>
+    <rect x="156" y="248" width="68" height="46" fill="#3d7a45"/>
+    <rect x="162" y="254" width="56" height="34" fill="#e5c473" opacity=".7"/>
+    <rect x="156" y="242" width="68" height="8" fill="#8d6134"/>
+    <!-- centre tower -->
+    <path d="M262 122 L378 122 L320 74 Z" fill="url(#pgRoof)"/>
+    <rect x="268" y="122" width="104" height="12" fill="#26522c"/>
+    <rect x="272" y="134" width="12" height="194" fill="url(#pgWood)"/>
+    <rect x="356" y="134" width="12" height="194" fill="url(#pgWood)"/>
+    <rect x="268" y="212" width="104" height="60" fill="#3d7a45"/>
+    <rect x="276" y="220" width="88" height="44" fill="#e5c473" opacity=".75"/>
+    <rect x="268" y="204" width="104" height="10" fill="#8d6134"/>
+    <rect x="268" y="272" width="104" height="10" fill="#8d6134"/>
+    <!-- right tower -->
+    <path d="M436 158 L534 158 L485 116 Z" fill="url(#pgRoof)"/>
+    <rect x="442" y="158" width="86" height="10" fill="#26522c"/>
+    <rect x="446" y="168" width="11" height="160" fill="url(#pgWood)"/>
+    <rect x="514" y="168" width="11" height="160" fill="url(#pgWood)"/>
+    <rect x="442" y="240" width="86" height="52" fill="#3d7a45"/>
+    <rect x="450" y="248" width="70" height="36" fill="#e5c473" opacity=".7"/>
+    <!-- far right tower -->
+    <path d="M596 176 L682 176 L639 138 Z" fill="url(#pgRoof)"/>
+    <rect x="602" y="176" width="74" height="9" fill="#26522c"/>
+    <rect x="606" y="185" width="10" height="143" fill="url(#pgWood)"/>
+    <rect x="664" y="185" width="10" height="143" fill="url(#pgWood)"/>
+    <rect x="602" y="248" width="74" height="46" fill="#3d7a45"/>
+
+    <!-- bridge -->
+    <rect x="372" y="242" width="70" height="12" fill="#8d6134"/>
+    <g stroke="#3d7a45" stroke-width="4">
+      <path d="M378 242 L378 210 M394 242 L394 210 M410 242 L410 210 M426 242 L426 210"/>
+      <path d="M374 210 L440 210"/>
+    </g>
+    <rect x="528" y="252" width="72" height="12" fill="#8d6134"/>
+    <g stroke="#3d7a45" stroke-width="4">
+      <path d="M534 252 L534 222 M552 252 L552 222 M570 252 L570 222 M588 252 L588 222"/>
+      <path d="M530 222 L598 222"/>
+    </g>
+
+    <!-- slide -->
+    <path d="M268 282 Q244 300 234 330 Q226 358 232 386 L268 386 Q262 356 272 336 Q284 312 300 300 Z" fill="url(#pgSlide)"/>
+    <path d="M268 282 Q244 300 234 330 Q226 358 232 386" fill="none" stroke="#a8763c" stroke-width="3"/>
+    <ellipse cx="250" cy="388" rx="20" ry="6" fill="#c2924f"/>
+    <!-- red slide right -->
+    <path d="M676 250 Q712 276 726 320 L700 322 Q690 284 660 262 Z" fill="#b5553f"/>
+    <!-- steps -->
+    <g fill="#8d6134">
+      <rect x="122" y="300" width="34" height="7"/><rect x="122" y="314" width="34" height="7"/>
+      <rect x="122" y="328" width="34" height="7"/>
+    </g>
+  </g>
+
+  <!-- benches + fence -->
+  <g fill="#7a5b3a">
+    <rect x="16" y="336" width="86" height="8"/><rect x="20" y="344" width="6" height="26"/>
+    <rect x="92" y="344" width="6" height="26"/>
+  </g>
+  <g stroke="#3d4a51" stroke-width="3" opacity=".8">
+    <path d="M740 320 L740 366 M770 320 L770 366 M800 320 L800 366 M830 320 L830 366 M860 320 L860 366"/>
+    <path d="M736 330 L880 330 M736 356 L880 356"/>
+  </g>
+
+  <!-- light + shadow wash -->
+  <rect width="880" height="500" fill="#ffd79a" opacity=".07"/>
+  <rect y="400" width="880" height="100" fill="#0d1216" opacity=".2"/>
+</svg>

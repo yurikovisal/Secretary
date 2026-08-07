@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Благоустроенный парк с дорожками и озеленением">
+  <defs>
+    <linearGradient id="pkSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fb2d6"/><stop offset="1" stop-color="#d8e4ef"/>
+    </linearGradient>
+    <linearGradient id="pkGrass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6f9a4e"/><stop offset="1" stop-color="#456530"/>
+    </linearGradient>
+    <linearGradient id="pkPath" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9c3b4"/><stop offset="1" stop-color="#9b9486"/>
+    </linearGradient>
+    <linearGradient id="pkBld" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d5cbb9"/><stop offset="1" stop-color="#a89e8e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="880" height="500" fill="url(#pkSky)"/>
+  <g fill="#fff" opacity=".6">
+    <ellipse cx="180" cy="46" rx="80" ry="16"/><ellipse cx="560" cy="34" rx="94" ry="15"/>
+    <ellipse cx="790" cy="56" rx="70" ry="14"/>
+  </g>
+
+  <!-- background residential blocks -->
+  <g fill="url(#pkBld)">
+    <rect x="18" y="96" width="86" height="164"/><rect x="118" y="122" width="70" height="138"/>
+    <rect x="212" y="86" width="92" height="174"/><rect x="322" y="130" width="66" height="130"/>
+    <rect x="560" y="104" width="88" height="156"/><rect x="662" y="132" width="72" height="128"/>
+    <rect x="750" y="92" width="96" height="168"/>
+  </g>
+  <g fill="#6d7a89" opacity=".7">
+    <g id="pkWin">
+      <rect x="30" y="112" width="14" height="18"/><rect x="54" y="112" width="14" height="18"/>
+      <rect x="78" y="112" width="14" height="18"/><rect x="130" y="138" width="12" height="16"/>
+      <rect x="152" y="138" width="12" height="16"/><rect x="224" y="102" width="14" height="18"/>
+      <rect x="250" y="102" width="14" height="18"/><rect x="276" y="102" width="14" height="18"/>
+      <rect x="334" y="146" width="12" height="16"/><rect x="358" y="146" width="12" height="16"/>
+      <rect x="572" y="120" width="14" height="18"/><rect x="598" y="120" width="14" height="18"/>
+      <rect x="624" y="120" width="14" height="18"/><rect x="674" y="148" width="12" height="16"/>
+      <rect x="700" y="148" width="12" height="16"/><rect x="762" y="108" width="14" height="18"/>
+      <rect x="790" y="108" width="14" height="18"/><rect x="818" y="108" width="14" height="18"/>
+    </g>
+    <use href="#pkWin" y="34"/><use href="#pkWin" y="68"/><use href="#pkWin" y="102"/><use href="#pkWin" y="136"/>
+  </g>
+
+  <!-- treeline -->
+  <g>
+    <ellipse cx="150" cy="252" rx="70" ry="48" fill="#3f6b39"/>
+    <ellipse cx="400" cy="240" rx="86" ry="54" fill="#48753f"/>
+    <ellipse cx="660" cy="250" rx="76" ry="50" fill="#3f6b39"/>
+    <ellipse cx="856" cy="244" rx="60" ry="46" fill="#48753f"/>
+  </g>
+
+  <rect y="262" width="880" height="238" fill="url(#pkGrass)"/>
+
+  <!-- paths -->
+  <path d="M0 344 Q220 300 440 330 Q660 360 880 318 L880 352 Q660 396 440 364 Q220 334 0 380 Z" fill="url(#pkPath)"/>
+  <path d="M300 500 Q346 400 402 336 L466 340 Q404 410 380 500 Z" fill="url(#pkPath)" opacity=".92"/>
+
+  <!-- poplars -->
+  <g>
+    <rect x="120" y="286" width="7" height="56" fill="#5b452c"/><ellipse cx="123" cy="278" rx="22" ry="42" fill="#4d7c41"/>
+    <rect x="236" y="292" width="6" height="48" fill="#5b452c"/><ellipse cx="239" cy="286" rx="18" ry="36" fill="#578a48"/>
+    <rect x="590" y="288" width="7" height="52" fill="#5b452c"/><ellipse cx="593" cy="280" rx="20" ry="40" fill="#4d7c41"/>
+    <rect x="716" y="294" width="6" height="46" fill="#5b452c"/><ellipse cx="719" cy="288" rx="17" ry="34" fill="#578a48"/>
+  </g>
+
+  <!-- flower beds -->
+  <g>
+    <ellipse cx="500" cy="416" rx="86" ry="26" fill="#7a5a3a"/>
+    <g fill="#c8503f"><circle cx="466" cy="412" r="5"/><circle cx="492" cy="420" r="5"/><circle cx="520" cy="410" r="5"/><circle cx="546" cy="420" r="5"/></g>
+    <ellipse cx="180" cy="446" rx="76" ry="24" fill="#7a5a3a"/>
+    <g fill="#d8a03e"><circle cx="150" cy="444" r="5"/><circle cx="180" cy="452" r="5"/><circle cx="210" cy="442" r="5"/></g>
+  </g>
+
+  <!-- benches + lamps -->
+  <g fill="#4a4640">
+    <rect x="640" y="404" width="80" height="7" rx="3"/><rect x="646" y="411" width="6" height="20"/><rect x="708" y="411" width="6" height="20"/>
+    <rect x="60" y="376" width="64" height="6" rx="3"/><rect x="65" y="382" width="5" height="16"/><rect x="114" y="382" width="5" height="16"/>
+  </g>
+  <g fill="#3b3a38">
+    <rect x="330" y="286" width="5" height="80"/><circle cx="332" cy="282" r="8" fill="#e5dcc4"/>
+    <rect x="800" y="292" width="5" height="76"/><circle cx="802" cy="288" r="8" fill="#e5dcc4"/>
+  </g>
+
+  <rect width="880" height="500" fill="#ffe9bd" opacity=".07"/>
+</svg>

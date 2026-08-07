@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 800" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ночная панорама города">
+  <defs>
+    <linearGradient id="hcSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05070b"/>
+      <stop offset=".5" stop-color="#080c12"/>
+      <stop offset=".82" stop-color="#0d131b"/>
+      <stop offset="1" stop-color="#070a0f"/>
+    </linearGradient>
+    <radialGradient id="hcGlow" cx=".76" cy=".7" r=".46">
+      <stop offset="0" stop-color="#c9922f" stop-opacity=".16"/>
+      <stop offset=".5" stop-color="#a5762a" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hcTower" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6a4c1b"/>
+      <stop offset=".34" stop-color="#d9b054"/>
+      <stop offset=".54" stop-color="#f0d391"/>
+      <stop offset=".76" stop-color="#b98c31"/>
+      <stop offset="1" stop-color="#5b4116"/>
+    </linearGradient>
+    <linearGradient id="hcNear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#222d3b"/><stop offset="1" stop-color="#0b1018"/>
+    </linearGradient>
+    <linearGradient id="hcFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#18202b"/><stop offset="1" stop-color="#0a0e14"/>
+    </linearGradient>
+    <linearGradient id="hcBase" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05080c" stop-opacity="0"/>
+      <stop offset="1" stop-color="#04060a"/>
+    </linearGradient>
+    <filter id="hcBloom" x="-60%" y="-30%" width="220%" height="160%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="hcHalo" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="800" fill="url(#hcSky)"/>
+  <ellipse cx="680" cy="560" rx="360" ry="330" fill="url(#hcGlow)"/>
+
+  <!-- far skyline -->
+  <g fill="url(#hcFar)">
+    <rect x="0" y="520" width="54" height="280"/><rect x="58" y="556" width="39" height="244"/>
+    <rect x="104" y="508" width="60" height="292"/><rect x="170" y="562" width="44" height="238"/>
+    <rect x="219" y="536" width="54" height="264"/><rect x="279" y="574" width="40" height="226"/>
+    <rect x="326" y="524" width="52" height="276"/><rect x="384" y="568" width="45" height="232"/>
+    <rect x="435" y="542" width="50" height="258"/><rect x="490" y="580" width="39" height="220"/>
+    <rect x="536" y="530" width="56" height="270"/><rect x="722" y="554" width="46" height="246"/>
+    <rect x="774" y="520" width="57" height="280"/><rect x="837" y="564" width="63" height="236"/>
+  </g>
+
+  <!-- near skyline -->
+  <g fill="url(#hcNear)">
+    <rect x="14" y="608" width="72" height="192"/><rect x="93" y="644" width="56" height="156"/>
+    <rect x="154" y="620" width="78" height="180"/><rect x="238" y="656" width="58" height="144"/>
+    <rect x="303" y="630" width="69" height="170"/><rect x="378" y="664" width="52" height="136"/>
+    <rect x="436" y="638" width="72" height="162"/><rect x="514" y="670" width="51" height="130"/>
+    <rect x="572" y="634" width="64" height="166"/><rect x="734" y="650" width="60" height="150"/>
+    <rect x="800" y="624" width="68" height="176"/>
+  </g>
+
+  <!-- window lights -->
+  <g fill="#e0b569">
+    <g id="hcW" opacity=".6">
+      <rect x="22" y="624" width="4" height="6"/><rect x="39" y="624" width="4" height="6"/>
+      <rect x="64" y="650" width="4" height="6"/><rect x="105" y="662" width="4" height="6"/>
+      <rect x="129" y="674" width="4" height="6"/><rect x="165" y="636" width="4" height="6"/>
+      <rect x="189" y="650" width="4" height="6"/><rect x="216" y="668" width="4" height="6"/>
+      <rect x="250" y="674" width="4" height="6"/><rect x="276" y="686" width="4" height="6"/>
+      <rect x="315" y="646" width="4" height="6"/><rect x="342" y="660" width="4" height="6"/>
+      <rect x="362" y="682" width="4" height="6"/><rect x="390" y="680" width="4" height="6"/>
+      <rect x="417" y="694" width="4" height="6"/><rect x="448" y="654" width="4" height="6"/>
+      <rect x="476" y="670" width="4" height="6"/><rect x="496" y="692" width="4" height="6"/>
+      <rect x="528" y="686" width="4" height="6"/><rect x="584" y="650" width="4" height="6"/>
+      <rect x="609" y="666" width="4" height="6"/><rect x="628" y="688" width="4" height="6"/>
+      <rect x="746" y="666" width="4" height="6"/><rect x="772" y="680" width="4" height="6"/>
+      <rect x="812" y="640" width="4" height="6"/><rect x="838" y="656" width="4" height="6"/>
+      <rect x="856" y="678" width="4" height="6"/>
+    </g>
+    <use href="#hcW" y="26" opacity=".3"/>
+    <use href="#hcW" y="52" opacity=".2"/>
+    <use href="#hcW" y="78" opacity=".13"/>
+    <use href="#hcW" x="14" y="14" opacity=".24"/>
+  </g>
+
+  <!-- signature gold tower: wireframe, lit from within -->
+  <g transform="translate(694 0)">
+    <g filter="url(#hcBloom)" opacity=".32">
+      <path d="M0 56 L34 232 L40 800 L-40 800 L-34 232 Z" fill="#c9a049"/>
+    </g>
+    <path d="M-26 232 L26 232 L36 800 L-36 800 Z" fill="#0b1017" opacity=".93"/>
+    <path d="M0 88 L26 232 L-26 232 Z" fill="#0b1017" opacity=".93"/>
+    <g fill="none" stroke="url(#hcTower)" stroke-width="1.7" stroke-linejoin="round">
+      <path d="M0 36 L7 88 L0 132 L-7 88 Z"/>
+      <path d="M0 88 L26 232 L-26 232 Z"/>
+      <path d="M-26 232 L26 232 L36 800 L-36 800 Z"/>
+      <path d="M-20 176 L20 176"/>
+      <path d="M-26 232 L-26 268 M26 232 L26 268"/>
+    </g>
+    <path d="M0 30 L0 800" stroke="#f2dda6" stroke-width=".9" opacity=".45"/>
+    <g stroke="#d9b054" stroke-width=".8" opacity=".45">
+      <path d="M-27 276 L27 276"/><path d="M-28 320 L28 320"/><path d="M-29 364 L29 364"/>
+      <path d="M-29 408 L29 408"/><path d="M-30 452 L30 452"/><path d="M-31 496 L31 496"/>
+      <path d="M-32 540 L32 540"/><path d="M-32 584 L32 584"/><path d="M-33 628 L33 628"/>
+      <path d="M-34 672 L34 672"/><path d="M-35 716 L35 716"/><path d="M-35 760 L35 760"/>
+    </g>
+    <g stroke="#e6c477" stroke-width=".7" fill="none" opacity=".28">
+      <path d="M-26 232 L36 800 M26 232 L-36 800"/>
+      <path d="M-13 232 L18 800 M13 232 L-18 800"/>
+    </g>
+    <g fill="#f6dfa8" opacity=".55">
+      <rect x="-16" y="300" width="3" height="5"/><rect x="9" y="348" width="3" height="5"/>
+      <rect x="-21" y="420" width="3" height="5"/><rect x="14" y="470" width="3" height="5"/>
+      <rect x="-7" y="530" width="3" height="5"/><rect x="21" y="600" width="3" height="5"/>
+      <rect x="-24" y="660" width="3" height="5"/><rect x="11" y="720" width="3" height="5"/>
+      <rect x="4" y="392" width="3" height="5"/><rect x="-11" y="590" width="3" height="5"/>
+    </g>
+    <circle cy="30" r="2.6" fill="#fff2cf"/>
+    <circle cy="30" r="9" fill="#f0cf87" opacity=".3" filter="url(#hcHalo)"/>
+  </g>
+
+  <!-- atmosphere -->
+  <rect y="540" width="900" height="260" fill="url(#hcBase)"/>
+  <rect y="700" width="900" height="100" fill="#04060a" opacity=".45"/>
+</svg>

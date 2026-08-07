@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 55 900 470" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Панорама Алматы с горами Заилийского Алатау и телебашней">
+  <defs>
+    <linearGradient id="alSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3f6288"/>
+      <stop offset=".38" stop-color="#7593b1"/>
+      <stop offset=".66" stop-color="#b4ac9c"/>
+      <stop offset="1" stop-color="#dcbf94"/>
+    </linearGradient>
+    <linearGradient id="alRock1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fa2b8"/><stop offset=".55" stop-color="#6a7c93"/><stop offset="1" stop-color="#4e5f76"/>
+    </linearGradient>
+    <linearGradient id="alRock2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6d7f96"/><stop offset="1" stop-color="#3e4c60"/>
+    </linearGradient>
+    <linearGradient id="alRock3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4d5c48"/><stop offset="1" stop-color="#293423"/>
+    </linearGradient>
+    <linearGradient id="alSnow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#cdd8e4"/>
+    </linearGradient>
+    <linearGradient id="alCity" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0cda8"/><stop offset="1" stop-color="#8c7f68"/>
+    </linearGradient>
+    <linearGradient id="alGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#41512f" stop-opacity=".95"/><stop offset="1" stop-color="#1d2617"/>
+    </linearGradient>
+    <filter id="alCloud" x="-40%" y="-120%" width="180%" height="340%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <filter id="alHaze" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="640" fill="url(#alSky)"/>
+
+  <!-- clouds -->
+  <g filter="url(#alCloud)">
+    <g fill="#f6efe1" opacity=".9">
+      <ellipse cx="118" cy="112" rx="98" ry="24"/><ellipse cx="200" cy="98" rx="64" ry="18"/>
+      <ellipse cx="336" cy="80" rx="86" ry="20"/><ellipse cx="424" cy="96" rx="56" ry="15"/>
+      <ellipse cx="566" cy="70" rx="92" ry="21"/><ellipse cx="678" cy="92" rx="68" ry="17"/>
+      <ellipse cx="812" cy="76" rx="88" ry="22"/>
+    </g>
+    <g fill="#c3ae94" opacity=".5">
+      <ellipse cx="160" cy="136" rx="104" ry="12"/><ellipse cx="486" cy="124" rx="120" ry="11"/>
+      <ellipse cx="800" cy="128" rx="92" ry="12"/>
+    </g>
+  </g>
+
+  <!-- far snow range: one silhouette, snow drawn as caps on the same ridge -->
+  <path fill="url(#alRock1)" d="M0 306 L54 250 L96 284 L152 206 L206 268 L262 232 L318 276 L376 218 L436 282 L494 244 L554 286 L612 226 L672 280 L730 246 L790 288 L846 240 L900 292 L900 360 L0 360 Z"/>
+  <path fill="url(#alSnow)" opacity=".96" d="M152 214 L176 244 L166 250 L156 240 L146 254 L136 246 L124 258 L114 250 L104 262 L96 284 L88 268 L78 276 L70 264 L60 272 L54 250 L74 274 L84 262 L96 272 L110 250 L122 260 L134 240 L144 248 Z"/>
+  <g fill="url(#alSnow)" opacity=".95">
+    <path d="M262 226 L286 262 L276 258 L268 268 L258 256 L248 266 L240 254 L230 264 L222 252 L206 268 L228 240 L238 250 L248 236 L256 244 Z"/>
+    <path d="M376 224 L400 258 L390 254 L382 266 L372 252 L362 264 L354 250 L344 262 L336 250 L318 276 L342 240 L352 250 L362 234 L370 242 Z"/>
+    <path d="M494 236 L516 268 L506 264 L498 274 L488 262 L478 272 L470 260 L460 270 L452 258 L436 282 L458 250 L468 260 L478 246 L486 254 Z"/>
+    <path d="M612 230 L634 264 L624 260 L616 270 L606 258 L596 268 L588 256 L578 266 L570 254 L554 286 L576 248 L586 258 L596 244 L604 252 Z"/>
+    <path d="M730 238 L752 270 L742 266 L734 276 L724 264 L714 274 L706 262 L696 272 L688 260 L672 280 L694 252 L704 262 L714 248 L722 256 Z"/>
+    <path d="M846 246 L868 278 L858 274 L850 284 L840 272 L830 282 L822 270 L812 280 L804 268 L790 288 L810 260 L820 270 L830 256 L838 264 Z"/>
+  </g>
+  <!-- rock shading on the far range -->
+  <g fill="#3f4d61" opacity=".35">
+    <path d="M152 214 L206 268 L180 268 Z"/><path d="M262 226 L318 276 L292 276 Z"/>
+    <path d="M376 224 L436 282 L408 282 Z"/><path d="M494 236 L554 286 L526 286 Z"/>
+    <path d="M612 230 L672 280 L644 280 Z"/><path d="M730 238 L790 288 L762 288 Z"/>
+  </g>
+
+  <!-- mid range -->
+  <path fill="url(#alRock2)" d="M0 338 L74 302 L146 340 L220 298 L296 342 L372 306 L452 348 L526 308 L606 350 L686 310 L764 352 L840 312 L900 346 L900 410 L0 410 Z"/>
+  <g fill="#dfe7f0" opacity=".4">
+    <path d="M220 298 L244 322 L232 320 L222 330 L212 318 L200 328 L196 320 Z"/>
+    <path d="M372 306 L396 330 L384 328 L374 338 L364 326 L352 336 L348 328 Z"/>
+    <path d="M526 308 L550 332 L538 330 L528 340 L518 328 L506 338 L502 330 Z"/>
+    <path d="M686 310 L710 334 L698 332 L688 342 L678 330 L666 340 L662 332 Z"/>
+    <path d="M74 302 L98 326 L86 324 L76 334 L66 322 L54 332 L50 324 Z"/>
+  </g>
+  <rect y="290" width="900" height="130" fill="#9db1c6" opacity=".14" filter="url(#alHaze)"/>
+
+  <!-- forested foothills -->
+  <path fill="url(#alRock3)" d="M0 402 L104 372 L224 410 L338 378 L468 418 L588 380 L700 416 L820 378 L900 404 L900 474 L0 474 Z"/>
+
+  <!-- TV tower on Kok-Tobe -->
+  <g transform="translate(668 26) scale(0.62 0.94)">
+    <path d="M0 44 L0 8" stroke="#c8d1da" stroke-width="1.6"/>
+    <path d="M-2.4 46 L2.4 46 L4.4 92 L-4.4 92 Z" fill="#b9c3cf"/>
+    <path d="M-5.4 92 L5.4 92 L7.6 140 L-7.6 140 Z" fill="#aab5c2"/>
+    <ellipse cx="0" cy="140" rx="11.5" ry="5" fill="#d2dbe4"/>
+    <path d="M-8.4 144 L8.4 144 L10.6 192 L-10.6 192 Z" fill="#b0bbc8"/>
+    <ellipse cx="0" cy="192" rx="14" ry="6" fill="#dde5ec"/>
+    <path d="M-10 197 L10 197 L15 402 L-15 402 Z" fill="#9fabb9"/>
+    <g stroke="#7f8a97" stroke-width=".8" opacity=".7">
+      <path d="M-11.5 236 L11.5 236 M-12.5 282 L12.5 282 M-13.5 330 L13.5 330 M-14.2 372 L14.2 372"/>
+    </g>
+    <circle cy="6" r="2.4" fill="#ffd9a1"/>
+  </g>
+
+  <!-- city -->
+  <g transform="translate(0 -54)">
+  <g fill="url(#alCity)">
+    <rect x="42" y="474" width="32" height="122"/><rect x="84" y="454" width="28" height="142"/>
+    <rect x="120" y="490" width="24" height="106"/><rect x="176" y="448" width="32" height="148"/>
+    <rect x="216" y="472" width="26" height="124"/><rect x="258" y="442" width="34" height="154"/>
+    <rect x="302" y="480" width="24" height="116"/><rect x="342" y="454" width="32" height="142"/>
+    <rect x="386" y="476" width="26" height="120"/><rect x="428" y="446" width="32" height="150"/>
+    <rect x="472" y="484" width="22" height="112"/><rect x="510" y="464" width="28" height="132"/>
+    <rect x="572" y="498" width="24" height="98"/><rect x="612" y="512" width="20" height="84"/>
+    <rect x="698" y="504" width="26" height="92"/><rect x="738" y="520" width="22" height="76"/>
+    <rect x="786" y="498" width="28" height="98"/><rect x="830" y="516" width="24" height="80"/>
+  </g>
+  <g fill="#6a5f4d" opacity=".45">
+    <rect x="42" y="474" width="32" height="5"/><rect x="84" y="454" width="28" height="5"/>
+    <rect x="176" y="448" width="32" height="5"/><rect x="258" y="442" width="34" height="5"/>
+    <rect x="342" y="454" width="32" height="5"/><rect x="428" y="446" width="32" height="5"/>
+    <rect x="510" y="464" width="28" height="5"/><rect x="786" y="498" width="28" height="5"/>
+  </g>
+  <g fill="#5f5647" opacity=".35">
+    <rect x="42" y="496" width="32" height="3"/><rect x="84" y="480" width="28" height="3"/>
+    <rect x="176" y="474" width="32" height="3"/><rect x="258" y="468" width="34" height="3"/>
+    <rect x="342" y="480" width="32" height="3"/><rect x="428" y="472" width="32" height="3"/>
+  </g>
+
+  <!-- foreground greenery -->
+  <path fill="url(#alGreen)" d="M0 506 Q58 482 118 508 Q184 484 248 512 Q316 488 382 514 Q448 490 514 516 Q582 492 648 518 Q718 494 788 520 Q846 500 900 518 L900 640 L0 640 Z"/>
+  <g fill="#2b361f" opacity=".9">
+    <ellipse cx="68" cy="552" rx="27" ry="21"/><ellipse cx="166" cy="564" rx="31" ry="23"/>
+    <ellipse cx="284" cy="554" rx="27" ry="21"/><ellipse cx="402" cy="568" rx="33" ry="24"/>
+    <ellipse cx="528" cy="556" rx="28" ry="22"/><ellipse cx="658" cy="570" rx="32" ry="23"/>
+    <ellipse cx="788" cy="558" rx="29" ry="22"/><ellipse cx="872" cy="572" rx="30" ry="22"/>
+  </g>
+
+  </g>
+
+  <!-- evening grade -->
+  <rect width="900" height="640" fill="#e09a4a" opacity=".1"/>
+  <rect y="420" width="900" height="220" fill="#0f1310" opacity=".3"/>
+</svg>
