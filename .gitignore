@@ -1,3 +1,8 @@
 node_modules/
 .DS_Store
 *.log
+telegram-bot/.venv/
+telegram-bot/.env
+__pycache__/
+*.pyc
+.pytest_cache/
